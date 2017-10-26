@@ -83,7 +83,7 @@ public class EarthquakeActivity extends AppCompatActivity implements LoaderManag
             earthquakeListView.setEmptyView(emptyView);
         }
 
-
+//this is a custom itemclick listener
         AdapterView.OnItemClickListener itemClickListener = new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
